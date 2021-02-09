@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="TextAppearance.Scout.Title1" parent="TextAppearance.MaterialComponents.Headline1">
+        <item name="fontFamily">@string/font_family_black</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:textSize">@dimen/text_28</item>
+        <item name="lineHeight">44sp</item>
+    </style>
+
+    <style name="TextAppearance.Scout.Title2" parent="TextAppearance.MaterialComponents.Headline2">
+        <item name="fontFamily">@string/font_family_black</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:textSize">@dimen/text_20</item>
+        <item name="android:letterSpacing">0.03</item>
+        <item name="lineHeight">28sp</item>
+    </style>
+
+    <style name="TextAppearance.Scout.Body" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:textSize">@dimen/text_16</item>
+        <item name="lineHeight">24sp</item>
+    </style>
+
+    <style name="TextAppearance.Scout.Body.Secondary" parent="TextAppearance.MaterialComponents.Body2">
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+        <item name="android:textSize">@dimen/text_14</item>
+        <item name="android:letterSpacing">0.03</item>
+        <item name="lineHeight">24sp</item>
+    </style>
+
+    <style name="TextAppearance.Scout.Body.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextAppearance.Scout.Toolbar" parent="TextAppearance.MaterialComponents.Headline3">
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:textStyle">bold|italic</item>
+        <item name="android:textSize">@dimen/text_20</item>
+        <item name="lineHeight">24sp</item>
+    </style>
+
+    <style name="TextAppearance.Scout.Button" parent="TextAppearance.MaterialComponents.Button">
+        <item name="fontFamily">@string/font_family_black</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:textStyle">italic</item>
+        <item name="lineHeight">24sp</item>
+    </style>
+
+    <style name="TextAppearance.Scout.Button.Small">
+        <item name="android:textSize">@dimen/text_16</item>
+    </style>
+
+    <style name="TextAppearance.Scout.Button.Big">
+        <item name="android:textSize">@dimen/text_18</item>
+    </style>
+
+    <style name="TextAppearance.Scout.Caption" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="fontFamily">@string/font_family_black</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:textSize">@dimen/text_12</item>
+        <item name="android:letterSpacing">0.03</item>
+        <item name="lineHeight">16sp</item>
+    </style>
+
+    <style name="TextAppearance.Scout.Default" parent="">
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:textSize">@dimen/text_14</item>
+        <item name="android:fontFamily">@string/font_family_regular</item>
+    </style>
+</resources>

@@ -1,0 +1,16 @@
+<resources>
+    <style name="Widget.Scout.Button" parent="Widget.MaterialComponents.Button">
+        <item name="cornerRadius">@dimen/corner_radius</item>
+        <item name="android:textAppearance">@style/TextAppearance.Scout.Button.Big</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:minHeight">@dimen/btn_height</item>
+        <item name="backgroundTint">@color/button_default_selector</item>
+    </style>
+
+    <style name="Widget.Scout.VerticalDivider" parent="">
+        <item name="android:layout_width">1dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/white_a20</item>
+    </style>
+</resources>

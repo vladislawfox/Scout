@@ -1,10 +1,9 @@
 package com.vladislawfox.scout.presentation.auth
 
 import com.vladislawfox.scout.base.ui.BaseViewModel
-import com.vladislawfox.scout.domain.GetRequestTokenUseCase
-import com.vladislawfox.scout.domain.GetSessionUseCase
-import com.vladislawfox.scout.domain.GetSessionV4UseCase
-import com.vladislawfox.scout.domain.GetSessionWithLoginUseCase
+import com.vladislawfox.scout.domain.usecases.auth.GetRequestTokenUseCase
+import com.vladislawfox.scout.domain.usecases.auth.GetSessionUseCase
+import com.vladislawfox.scout.domain.usecases.auth.GetSessionWithLoginUseCase
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
@@ -12,9 +11,9 @@ import javax.inject.Inject
 
 @HiltViewModel
 class AuthViewModel @Inject constructor(
-        private val getRequestTokenUseCase: GetRequestTokenUseCase,
-        private val getSessionUseCase: GetSessionUseCase,
-        private val getSessionWithLoginUseCase: GetSessionWithLoginUseCase
+    private val getRequestTokenUseCase: GetRequestTokenUseCase,
+    private val getSessionUseCase: GetSessionUseCase,
+    private val getSessionWithLoginUseCase: GetSessionWithLoginUseCase
 ) : BaseViewModel() {
 
     private val _userLogged = MutableStateFlow(value = false)

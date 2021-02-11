@@ -1,7 +1,7 @@
-package com.vladislawfox.scout.domain
+package com.vladislawfox.scout.domain.usecases.auth
 
 import com.vladislawfox.scout.base.usecase.UseCaseWithoutParams
-import com.vladislawfox.scout.data.UserRepository
+import com.vladislawfox.scout.data.repositories.UserRepository
 import com.vladislawfox.scout.data.local.EncryptPrefsManager
 import com.vladislawfox.scout.data.network.request.SessionV4Request
 import javax.inject.Inject

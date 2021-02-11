@@ -1,8 +1,8 @@
-package com.vladislawfox.scout.data
+package com.vladislawfox.scout.data.repositories
 
 import com.vladislawfox.scout.data.local.EncryptPrefsManager
-import com.vladislawfox.scout.data.network.UserService
-import com.vladislawfox.scout.data.network.model.TokenApiModel
+import com.vladislawfox.scout.data.network.services.UserService
+import com.vladislawfox.scout.data.network.model.auth.TokenApiModel
 import com.vladislawfox.scout.data.network.request.DeleteSessionRequest
 import com.vladislawfox.scout.data.network.request.SessionRequest
 import com.vladislawfox.scout.data.network.request.SessionV4Request

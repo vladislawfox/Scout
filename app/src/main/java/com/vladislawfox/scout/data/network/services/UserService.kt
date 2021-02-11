@@ -1,7 +1,7 @@
-package com.vladislawfox.scout.data.network
+package com.vladislawfox.scout.data.network.services
 
-import com.vladislawfox.scout.data.network.model.SessionApiModel
-import com.vladislawfox.scout.data.network.model.TokenApiModel
+import com.vladislawfox.scout.data.network.model.auth.SessionApiModel
+import com.vladislawfox.scout.data.network.model.auth.TokenApiModel
 import com.vladislawfox.scout.data.network.request.DeleteSessionRequest
 import com.vladislawfox.scout.data.network.request.SessionRequest
 import com.vladislawfox.scout.data.network.request.SessionV4Request

@@ -1,7 +1,7 @@
 package com.vladislawfox.scout.presentation.splash
 
 import com.vladislawfox.scout.base.ui.BaseViewModel
-import com.vladislawfox.scout.domain.IsUserLoggedUseCase
+import com.vladislawfox.scout.domain.usecases.auth.IsUserLoggedUseCase
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow

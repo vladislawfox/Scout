@@ -3,8 +3,9 @@ package com.vladislawfox.scout.di
 import com.google.gson.GsonBuilder
 import com.itkacher.okhttpprofiler.OkHttpProfilerInterceptor
 import com.vladislawfox.scout.BuildConfig
-import com.vladislawfox.scout.data.network.UserService
 import com.vladislawfox.scout.data.network.interceptor.ApiInterceptor
+import com.vladislawfox.scout.data.network.services.MovieService
+import com.vladislawfox.scout.data.network.services.UserService
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -25,6 +26,12 @@ object NetworkModule {
     @Singleton
     fun provideUserService(retrofit: Retrofit): UserService {
         return retrofit.create(UserService::class.java)
+    }
+
+    @Provides
+    @Singleton
+    fun provideMovieService(retrofit: Retrofit): MovieService {
+        return retrofit.create(MovieService::class.java)
     }
 
     @Provides

@@ -1,4 +1,4 @@
-package com.vladislawfox.scout.domain
+package com.vladislawfox.scout.domain.usecases.auth
 
 import com.vladislawfox.scout.base.usecase.UseCaseWithoutParamsSync
 import com.vladislawfox.scout.data.local.EncryptPrefsManager
